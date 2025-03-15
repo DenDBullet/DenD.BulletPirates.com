@@ -20,6 +20,7 @@ export type Config = {
   layoutPadding: number
   compactContentWidth: number
   disableRipple: boolean
+  homePageUrl: string
 }
 
 const themeConfig: Config = {
@@ -28,7 +29,8 @@ const themeConfig: Config = {
   mode: 'light', // 'light', 'dark'
   layoutPadding: 24, // Common padding for header, content, footer layout components (in px)
   compactContentWidth: 1440, // in px
-  disableRipple: false // true, false
+  disableRipple: false, // true, false
+  homePageUrl: '/booking', 
 }
 
 export default themeConfig

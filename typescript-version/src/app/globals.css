@@ -16,6 +16,14 @@
   --backdrop-color: rgb(var(--mui-mainColorChannels-light) / 0.5);
 }
 
+/* globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
 [data-mui-color-scheme='dark'] {
   --backdrop-color: rgb(21 16 43 / 0.6);
 }
@@ -35,6 +43,7 @@ html {
   display: flex;
   inline-size: 100%;
   min-block-size: 100%;
+  scroll-behavior: smooth;
 }
 
 a {

@@ -1,7 +1,7 @@
 // MUI Imports
 import type { Theme } from '@mui/material/styles'
 
-const typography = (fontFamily: string): Theme['typography'] =>
+const typography = (fontFamily: string="Poppins, sans-serif"): Theme['typography'] =>
   ({
     fontFamily:
       typeof fontFamily === 'undefined' || fontFamily === ''

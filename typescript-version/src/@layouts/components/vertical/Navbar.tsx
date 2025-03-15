@@ -8,9 +8,11 @@ import type { CSSObject } from '@emotion/styled'
 import type { ChildrenType } from '@core/types'
 
 // Util Imports
+// eslint-disable-next-line import/no-unresolved
 import { verticalLayoutClasses } from '@layouts/utils/layoutClasses'
 
 // Styled Component Imports
+// eslint-disable-next-line import/no-unresolved
 import StyledHeader from '@layouts/styles/vertical/StyledHeader'
 
 type Props = ChildrenType & {
