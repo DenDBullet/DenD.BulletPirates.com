@@ -68,7 +68,7 @@ export default function BookingPage() {
             ))}
           </select>
           <button type="submit" className="w-full bg-blue-500 text-white p-2 rounded">
-            Confirm Booking
+            Confirm Booking 
           </button>
         </form>
       </div>
